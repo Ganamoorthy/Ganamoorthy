@@ -108,7 +108,7 @@ Data Processing → Machine Learning
 Intelligent Engineering Solutions
 ```
 
-I'm particularly interested in combining electronics + embedded systems + software + AI to solve practical engineering problems.
+I'm particularly interested in combining **electronics + embedded systems + software + AI** to solve practical engineering problems.
 
 ---
 
@@ -129,18 +129,19 @@ I'm particularly interested in combining electronics + embedded systems + softwa
 
 ## 🎓 Education
 
-**University of Kelaniya — Sri Lanka**
+### University of Kelaniya — Sri Lanka
 
-- BSc Honours in Electronics and Computer Science
-- Final-Year Undergraduate Research — One-Year Research Project
+**BSc Honours in Electronics and Computer Science**
+
+**Final-Year Undergraduate Research — One-Year Research Project**
 
 ---
 
 ## 🏆 Achievement
 
-**SLT Mobitel TechNovation 2025 — National Finalist**
+### SLT Mobitel TechNovation 2025 — National Finalist
 
-Participated as a member of the National Finalist Team in the SLT Mobitel TechNovation 2025 competition.
+Participated as a member of the **National Finalist Team** in the SLT Mobitel TechNovation 2025 competition.
 
 ---
 
@@ -148,15 +149,15 @@ Participated as a member of the National Finalist Team in the SLT Mobitel TechNo
 
 I'm interested in opportunities related to:
 
-- 🔧 Embedded Systems
-- ⚡ Electronics Engineering
-- 🤖 Robotics
-- 🌐 IoT
-- 📡 Wireless Communication
-- 🛰️ GPS & Navigation Systems
-- 🔋 Battery & Power Monitoring
-- 🧠 Machine Learning
-- 🔬 Engineering Research
+🔧 Embedded Systems  
+⚡ Electronics Engineering  
+🤖 Robotics  
+🌐 IoT  
+📡 Wireless Communication  
+🛰️ GPS & Navigation Systems  
+🔋 Battery & Power Monitoring  
+🧠 Machine Learning  
+🔬 Engineering Research  
 
 ---
 
@@ -166,6 +167,8 @@ I'm interested in opportunities related to:
   <img src="https://github-readme-stats.vercel.app/api?username=Ganamoorthy&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ganamoorthy&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 </p>
+
+---
 
 ## 📈 Contribution Streak
 
@@ -191,6 +194,6 @@ I'm interested in opportunities related to:
 
 ---
 
-⚡ *Building ideas from circuits to intelligent systems.*
+### ⚡ Building ideas from circuits to intelligent systems.
 
-Thanks for visiting my profile! 🚀
+**Thanks for visiting my profile! 🚀**
