@@ -5,20 +5,6 @@
 ### 🎓 Electronics & Computer Science Undergraduate
 ### 🔧 Embedded Systems • Electronics • IoT • Intelligent Systems
 
-<p>
-  <a href="https://github.com/Ganamoorthy">
-    <img src="https://img.shields.io/badge/GitHub-Ganamoorthy-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/in/ganamoorthy-sivdhas-334668285/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://ganamoorthy.github.io/Ganamoorthy_Webpage/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=google-chrome&logoColor=white">
-  </a>
-</p>
-
-</div>
-
 ---
 
 ## 👨‍💻 About Me
