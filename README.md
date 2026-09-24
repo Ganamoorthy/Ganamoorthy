@@ -106,55 +106,91 @@ IoT → Communication → Cloud
 Data Processing → Machine Learning
         ↓
 Intelligent Engineering Solutions
+```
 
 I'm particularly interested in combining electronics + embedded systems + software + AI to solve practical engineering problems.
 
-📚 Currently Learning
-Advanced Embedded Systems
-STM32 Development
-ESP32 Development
-IoT Communication
-REST APIs & Distributed Systems
-Machine Learning
-LSTM Networks
-Sensor Fusion
-Dead Reckoning
-GPS & IMU-based Position Estimation
-🎓 Education
-University of Kelaniya — Sri Lanka
+---
 
-BSc Honours in Electronics and Computer Science
+## 📚 Currently Learning
 
-Final-Year Undergraduate Research — One-Year Research Project
+- Advanced Embedded Systems
+- STM32 Development
+- ESP32 Development
+- IoT Communication
+- REST APIs & Distributed Systems
+- Machine Learning
+- LSTM Networks
+- Sensor Fusion
+- Dead Reckoning
+- GPS & IMU-based Position Estimation
 
-🏆 Achievement
-SLT Mobitel TechNovation 2025 — National Finalist
+---
+
+## 🎓 Education
+
+**University of Kelaniya — Sri Lanka**
+
+- BSc Honours in Electronics and Computer Science
+- Final-Year Undergraduate Research — One-Year Research Project
+
+---
+
+## 🏆 Achievement
+
+**SLT Mobitel TechNovation 2025 — National Finalist**
 
 Participated as a member of the National Finalist Team in the SLT Mobitel TechNovation 2025 competition.
 
-💼 Professional Interests
+---
+
+## 💼 Professional Interests
 
 I'm interested in opportunities related to:
 
-🔧 Embedded Systems
-⚡ Electronics Engineering
-🤖 Robotics
-🌐 IoT
-📡 Wireless Communication
-🛰️ GPS & Navigation Systems
-🔋 Battery & Power Monitoring
-🧠 Machine Learning
-🔬 Engineering Research
+- 🔧 Embedded Systems
+- ⚡ Electronics Engineering
+- 🤖 Robotics
+- 🌐 IoT
+- 📡 Wireless Communication
+- 🛰️ GPS & Navigation Systems
+- 🔋 Battery & Power Monitoring
+- 🧠 Machine Learning
+- 🔬 Engineering Research
 
-📊 GitHub Statistics
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Ganamoorthy&show_icons=true&theme=tokyonight&hide_border=true" height="170"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ganamoorthy&layout=compact&theme=tokyonight&hide_border=true" height="170"/> </p>
-📈 Contribution Streak
-<p align="center"> <img src="https://streak-stats.demolab.com?user=Ganamoorthy&theme=tokyonight&hide_border=true"/> </p>
-🌐 Connect With Me
-<p align="left"> <a href="https://github.com/Ganamoorthy"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="https://www.linkedin.com/in/ganamoorthy-sivdhas-334668285/"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="https://ganamoorthy.github.io/Ganamoorthy_Webpage/"> <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/> </a> </p>
-⚡ Building ideas from circuits to intelligent systems.
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ganamoorthy&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ganamoorthy&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
+## 📈 Contribution Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Ganamoorthy&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://github.com/Ganamoorthy">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/ganamoorthy-sivdhas-334668285/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://ganamoorthy.github.io/Ganamoorthy_Webpage/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+⚡ *Building ideas from circuits to intelligent systems.*
 
 Thanks for visiting my profile! 🚀
-
-
-This version has **no individual project section**. Your GitHub repositories will handle the projects, while the profile README presents you as an **Electronics & Computer Science undergraduate focused on embedded systems and final-year research**.
