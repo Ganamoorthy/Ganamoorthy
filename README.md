@@ -161,23 +161,6 @@ I'm interested in opportunities related to:
 
 ---
 
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ganamoorthy&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ganamoorthy&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
----
-
-## 📈 Contribution Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Ganamoorthy&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
 ## 🌐 Connect With Me
 
 <p align="left">
