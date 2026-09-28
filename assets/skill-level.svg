@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300">
+  <rect width="760" height="300" rx="14" fill="#07111f"/>
+  <g font-family="monospace" font-size="15" fill="#d9f7ff">
+    <text x="28" y="38">Embedded Systems</text>
+    <text x="28" y="88">Electronics</text>
+    <text x="28" y="138">IoT &amp; Communication</text>
+    <text x="28" y="188">Programming</text>
+    <text x="28" y="238">AI &amp; Sensor Processing</text>
+  </g>
+
+  <g fill="#102638" stroke="#19445d">
+    <rect x="235" y="22" width="470" height="20" rx="10"/>
+    <rect x="235" y="72" width="470" height="20" rx="10"/>
+    <rect x="235" y="122" width="470" height="20" rx="10"/>
+    <rect x="235" y="172" width="470" height="20" rx="10"/>
+    <rect x="235" y="222" width="470" height="20" rx="10"/>
+  </g>
+
+  <g fill="#00cfff">
+    <rect x="235" y="22" width="420" height="20" rx="10">
+      <animate attributeName="width" values="390;420;400;420" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="235" y="72" width="395" height="20" rx="10">
+      <animate attributeName="width" values="365;395;375;395" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="235" y="122" width="380" height="20" rx="10">
+      <animate attributeName="width" values="350;380;360;380" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="235" y="172" width="365" height="20" rx="10">
+      <animate attributeName="width" values="335;365;345;365" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="235" y="222" width="350" height="20" rx="10">
+      <animate attributeName="width" values="320;350;330;350" dur="3.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="monospace" font-size="12" fill="#9bdcf0">
+    <text x="670" y="37">CORE</text>
+    <text x="670" y="87">CORE</text>
+    <text x="670" y="137">CORE</text>
+    <text x="670" y="187">CORE</text>
+    <text x="670" y="237">CORE</text>
+  </g>
+</svg>
