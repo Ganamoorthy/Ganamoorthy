@@ -20,7 +20,7 @@ My primary interest is in **electronics and embedded systems**, especially hardw
 
 - 🔧 Embedded Systems & Electronics
 - 🌐 IoT & Connected Devices
-- 📡 GPS, IMU & Sensor Systems
+- 📡 Sensor Systems
 - 🤖 Robotics & Intelligent Systems
 - 🔋 Battery Monitoring & Power Systems
 - 🧠 Machine Learning & Sensor Data Processing
@@ -80,14 +80,6 @@ The research focuses on applying **electronics, embedded systems, sensors, IoT, 
 
 ---
 
-## 🏆 Achievement
-
-### SLT Mobitel TechNovation 2025 — National Finalist
-
-Participated as a member of the **National Finalist Team** in the **SLT Mobitel TechNovation 2025** competition with the **Lumofit Smart Posture Belt**.
-
----
-
 ## 📚 Currently Learning
 
 <p align="center">
@@ -101,8 +93,6 @@ Participated as a member of the **National Finalist Team** in the **SLT Mobitel 
 **University of Kelaniya — Sri Lanka**
 
 **BSc Honours in Electronics and Computer Science**
-
-🔬 **Final-Year Undergraduate Research — One-Year Research Project**
 
 ---
 
