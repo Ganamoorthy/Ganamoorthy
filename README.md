@@ -18,15 +18,15 @@ My main interest is **electronics and embedded systems**, with a focus on connec
 
 ### 🔧 What I Work With
 
-- Embedded Systems & Electronics
-- IoT & Connected Devices
-- Sensors & Actuators
-- Wireless Communication
-- Robotics & Intelligent Systems
-- Battery Monitoring & Power Systems
-- Machine Learning & Sensor Data Processing
-- Hardware & Software Integration
-- Engineering Research & Development
+- 🔧 Embedded Systems & Electronics
+- 🌐 IoT & Connected Devices
+- 📡 Sensors & Actuators
+- 📶 Wireless Communication
+- 🤖 Robotics & Intelligent Systems
+- 🔋 Battery Monitoring & Power Systems
+- 🧠 Machine Learning & Sensor Data Processing
+- 🔗 Hardware & Software Integration
+- 🔬 Engineering Research & Development
 
 ---
 
@@ -107,8 +107,6 @@ The research focuses on applying **electronics, embedded systems, sensors, IoT, 
 ### University of Kelaniya — Sri Lanka
 
 **BSc Honours in Electronics and Computer Science**
-
-🔬 **Final-Year Undergraduate Research — One-Year Research Project**
 
 ---
 
