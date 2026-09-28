@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#02060c"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00a8ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="892" height="252" rx="18" fill="url(#bg)" stroke="#16334a" stroke-width="2"/>
+
+  <!-- circuit traces -->
+  <g fill="none" stroke="#0b6384" stroke-width="2" opacity="0.75">
+    <path d="M20 55 H145 V95 H220"/>
+    <path d="M20 205 H125 V165 H220"/>
+    <path d="M880 55 H755 V95 H680"/>
+    <path d="M880 205 H775 V165 H680"/>
+    <path d="M75 30 V70"/>
+    <path d="M825 30 V70"/>
+    <path d="M75 230 V190"/>
+    <path d="M825 230 V190"/>
+    <path d="M250 28 V62"/>
+    <path d="M650 28 V62"/>
+    <path d="M250 232 V198"/>
+    <path d="M650 232 V198"/>
+  </g>
+
+  <!-- moving electrons -->
+  <g fill="#00e5ff" filter="url(#glow)">
+    <circle r="4">
+      <animateMotion dur="2.6s" repeatCount="indefinite" path="M20 55 H145 V95 H220"/>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="3.1s" repeatCount="indefinite" path="M880 205 H775 V165 H680"/>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="2.9s" repeatCount="indefinite" path="M20 205 H125 V165 H220"/>
+    </circle>
+  </g>
+
+  <!-- chip -->
+  <g transform="translate(340 55)">
+    <rect x="0" y="0" width="220" height="150" rx="12" fill="#0a1522" stroke="#00bfff" stroke-width="2"/>
+    <rect x="22" y="22" width="176" height="106" rx="8" fill="#07101a" stroke="#164866"/>
+    <text x="110" y="55" text-anchor="middle" fill="#00e5ff" font-family="monospace" font-size="22" font-weight="bold">MCU</text>
+    <text x="110" y="82" text-anchor="middle" fill="#9bdcf0" font-family="monospace" font-size="13">ESP32 • STM32</text>
+    <text x="110" y="106" text-anchor="middle" fill="#6fa9bd" font-family="monospace" font-size="11">SENSORS • IoT • AI</text>
+    <g fill="#00e5ff">
+      <circle cx="8" cy="25" r="3"/><circle cx="8" cy="50" r="3"/><circle cx="8" cy="75" r="3"/><circle cx="8" cy="100" r="3"/><circle cx="8" cy="125" r="3"/>
+      <circle cx="212" cy="25" r="3"/><circle cx="212" cy="50" r="3"/><circle cx="212" cy="75" r="3"/><circle cx="212" cy="100" r="3"/><circle cx="212" cy="125" r="3"/>
+    </g>
+  </g>
+
+  <!-- animated signal wave -->
+  <path d="M85 132 C105 102 125 162 145 132 S185 102 205 132 S245 162 265 132"
+        fill="none" stroke="url(#cyan)" stroke-width="3" opacity="0.85">
+    <animate attributeName="stroke-dashoffset" from="0" to="-80" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dasharray" values="10 12;18 8;10 12" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- LEDs -->
+  <g>
+    <circle cx="305" cy="30" r="6" fill="#00e5ff">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="595" cy="230" r="6" fill="#00e5ff">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="710" cy="132" r="6" fill="#00e5ff">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- title -->
+  <text x="450" y="235" text-anchor="middle" fill="#d9f7ff" font-family="monospace" font-size="15">
+    ELECTRONICS • EMBEDDED SYSTEMS • IoT • COMPUTER SCIENCE
+  </text>
+</svg>
