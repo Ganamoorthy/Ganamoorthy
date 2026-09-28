@@ -122,5 +122,5 @@ The research focuses on applying **electronics, embedded systems, sensors, IoT, 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1200&color=00BFFF&center=true&vCenter=true&width=520&lines=Building+ideas+from+circuits+to+intelligent+systems." alt="Closing message"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1200&color=00BFFF&center=true&vCenter=true&width=700&lines=Building+ideas+from+circuits+to+intelligent+systems." alt="Closing message"/>
 </p>
