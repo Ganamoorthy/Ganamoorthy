@@ -1,0 +1,362 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e18"/>
+      <stop offset="50%" stop-color="#050a12"/>
+      <stop offset="100%" stop-color="#020509"/>
+    </linearGradient>
+
+    <!-- Glowing Cyan Gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#00c0ff"/>
+      <stop offset="100%" stop-color="#0077fe"/>
+    </linearGradient>
+
+    <!-- Emerald / Sensor Gradient -->
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ffa3"/>
+      <stop offset="100%" stop-color="#00b874"/>
+    </linearGradient>
+
+    <!-- Gold / Copper Trace Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#f77f00"/>
+    </linearGradient>
+
+    <!-- Chip Gradient -->
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141e2e"/>
+      <stop offset="100%" stop-color="#090f17"/>
+    </linearGradient>
+
+    <!-- Core Glow -->
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#00e5ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filters for Intense Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Background Grid Pattern -->
+    <pattern id="microGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.07"/>
+      <circle cx="20" cy="0" r="0.75" fill="#00e5ff" fill-opacity="0.15"/>
+    </pattern>
+
+    <!-- Motion Paths for Electrons -->
+    <path id="pathLeft1" d="M 15 50 H 130 V 85 H 230 V 110 H 330"/>
+    <path id="pathLeft2" d="M 15 210 H 110 V 175 H 220 V 145 H 330"/>
+    <path id="pathLeft3" d="M 80 18 V 70 H 160 V 130 H 330"/>
+    <path id="pathRight1" d="M 885 50 H 770 V 85 H 670 V 110 H 570"/>
+    <path id="pathRight2" d="M 885 210 H 790 V 175 H 680 V 145 H 570"/>
+    <path id="pathRight3" d="M 820 18 V 70 H 740 V 130 H 570"/>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="896" height="256" rx="16" fill="url(#bgGrad)" stroke="#1a2d45" stroke-width="1.5"/>
+  <rect x="2" y="2" width="896" height="256" rx="16" fill="url(#microGrid)"/>
+
+  <!-- Glowing Outer Accent Rim -->
+  <rect x="3" y="3" width="894" height="254" rx="15" fill="none" stroke="url(#cyanGrad)" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- System Header Line -->
+  <g transform="translate(24, 22)">
+    <circle cx="5" cy="5" r="4" fill="#00ffa3">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="8" fill="#00ffa3" class="font-mono" font-size="10" font-weight="bold" letter-spacing="1">SYS_ONLINE // EMBEDDED R&amp;D LAB</text>
+    
+    <text x="730" y="8" fill="#6488a6" class="font-mono" font-size="10" letter-spacing="1">FREQ: 240MHz | VOLT: 3.3V</text>
+  </g>
+
+  <!-- Circuit Traces Base Layer -->
+  <g fill="none" stroke="#0e334a" stroke-width="2" opacity="0.65" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#pathLeft1"/>
+    <use href="#pathLeft2"/>
+    <use href="#pathLeft3"/>
+    <use href="#pathRight1"/>
+    <use href="#pathRight2"/>
+    <use href="#pathRight3"/>
+
+    <path d="M 50 130 H 120 V 160"/>
+    <path d="M 850 130 H 780 V 160"/>
+    <path d="M 230 40 V 85"/>
+    <path d="M 670 40 V 85"/>
+    <path d="M 220 220 V 175"/>
+    <path d="M 680 220 V 175"/>
+  </g>
+
+  <!-- Glowing Active Circuit Bus Lines -->
+  <g fill="none" stroke="url(#cyanGrad)" stroke-width="1.5" opacity="0.85" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 130 85 H 230 V 110 H 330"/>
+    <path d="M 110 175 H 220 V 145 H 330"/>
+    <path d="M 770 85 H 670 V 110 H 570"/>
+    <path d="M 790 175 H 680 V 145 H 570"/>
+  </g>
+
+  <!-- Solder Pad Nodes -->
+  <g fill="#0c2336" stroke="#00e5ff" stroke-width="1.5">
+    <circle cx="15" cy="50" r="3.5"/>
+    <circle cx="130" cy="85" r="3.5"/>
+    <circle cx="230" cy="110" r="3.5"/>
+    <circle cx="15" cy="210" r="3.5"/>
+    <circle cx="110" cy="175" r="3.5"/>
+    <circle cx="220" cy="145" r="3.5"/>
+
+    <circle cx="885" cy="50" r="3.5"/>
+    <circle cx="770" cy="85" r="3.5"/>
+    <circle cx="670" cy="110" r="3.5"/>
+    <circle cx="885" cy="210" r="3.5"/>
+    <circle cx="790" cy="175" r="3.5"/>
+    <circle cx="680" cy="145" r="3.5"/>
+
+    <circle cx="80" cy="18" r="3"/>
+    <circle cx="820" cy="18" r="3"/>
+    <circle cx="230" cy="40" r="3"/>
+    <circle cx="670" cy="40" r="3"/>
+  </g>
+
+  <!-- Moving Data Packets / Electron Pulses -->
+  <g fill="#00f2fe" filter="url(#glow)">
+    <circle r="3.5">
+      <animateMotion dur="2.4s" repeatCount="indefinite">
+        <mpath href="#pathLeft1"/>
+      </animateMotion>
+    </circle>
+    <circle r="3.5">
+      <animateMotion dur="3.0s" begin="0.8s" repeatCount="indefinite">
+        <mpath href="#pathLeft2"/>
+      </animateMotion>
+    </circle>
+    <circle r="3">
+      <animateMotion dur="2.8s" begin="1.4s" repeatCount="indefinite">
+        <mpath href="#pathLeft3"/>
+      </animateMotion>
+    </circle>
+
+    <circle r="3.5">
+      <animateMotion dur="2.5s" begin="0.3s" repeatCount="indefinite">
+        <mpath href="#pathRight1"/>
+      </animateMotion>
+    </circle>
+    <circle r="3.5">
+      <animateMotion dur="3.1s" begin="1.1s" repeatCount="indefinite">
+        <mpath href="#pathRight2"/>
+      </animateMotion>
+    </circle>
+    <circle r="3">
+      <animateMotion dur="2.7s" begin="0.5s" repeatCount="indefinite">
+        <mpath href="#pathRight3"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- LEFT MODULE: Oscilloscope / Signal Monitor -->
+  <g transform="translate(65, 80)">
+    <rect x="0" y="0" width="180" height="96" rx="8" fill="#060c14" stroke="#16344d" stroke-width="1.2"/>
+    <line x1="0" y1="48" x2="180" y2="48" stroke="#102538" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="90" y1="0" x2="90" y2="96" stroke="#102538" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="45" y1="0" x2="45" y2="96" stroke="#0a1824" stroke-width="0.7" stroke-dasharray="2,2"/>
+    <line x1="135" y1="0" x2="135" y2="96" stroke="#0a1824" stroke-width="0.7" stroke-dasharray="2,2"/>
+
+    <g clip-path="url(#scopeClip)">
+      <clipPath id="scopeClip">
+        <rect x="2" y="2" width="176" height="92" rx="6"/>
+      </clipPath>
+      
+      <path d="M -30 48 Q -15 14, 0 48 T 30 48 T 60 48 T 90 48 T 120 48 T 150 48 T 180 48 T 210 48" 
+            fill="none" stroke="url(#cyanGrad)" stroke-width="2.2" filter="url(#subtleGlow)">
+        <animate attributeName="d" 
+                 values="M -30 48 Q -15 18, 0 48 T 30 48 T 60 48 T 90 48 T 120 48 T 150 48 T 180 48 T 210 48;
+                         M -30 48 Q -15 12, 0 48 T 30 48 T 60 48 T 90 48 T 120 48 T 150 48 T 180 48 T 210 48;
+                         M -30 48 Q -15 24, 0 48 T 30 48 T 60 48 T 90 48 T 120 48 T 150 48 T 180 48 T 210 48;
+                         M -30 48 Q -15 18, 0 48 T 30 48 T 60 48 T 90 48 T 120 48 T 150 48 T 180 48 T 210 48"
+                 dur="2s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-60 0" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <rect x="6" y="6" width="54" height="15" rx="3" fill="#0c1d2d" fill-opacity="0.8"/>
+    <text x="10" y="17" fill="#00e5ff" class="font-mono" font-size="9" font-weight="bold">OSC // CH1</text>
+    <text x="110" y="17" fill="#587d99" class="font-mono" font-size="8">SINE: 100kHz</text>
+    
+    <circle cx="12" cy="85" r="3" fill="#00ffa3"/>
+    <text x="20" y="88" fill="#8cb3cf" class="font-mono" font-size="8">UART • I²C • SPI</text>
+  </g>
+
+  <!-- CENTER MODULE: Advanced Microcontroller (MCU) with Fixed Alignment -->
+  <g transform="translate(340, 44)">
+    <!-- Radial Ambient Aura behind chip -->
+    <rect x="-30" y="-15" width="280" height="190" fill="url(#coreGlow)"/>
+
+    <!-- IC Metallic Pins Top & Bottom (8 Top, 8 Bottom) -->
+    <g fill="#9fc1d9" stroke="#486e8a" stroke-width="0.5">
+      <!-- Top Pins -->
+      <rect x="27" y="-8" width="6" height="10" rx="1.5"/>
+      <rect x="49" y="-8" width="6" height="10" rx="1.5"/>
+      <rect x="71" y="-8" width="6" height="10" rx="1.5"/>
+      <rect x="93" y="-8" width="6" height="10" rx="1.5"/>
+      <rect x="115" y="-8" width="6" height="10" rx="1.5"/>
+      <rect x="137" y="-8" width="6" height="10" rx="1.5"/>
+      <rect x="159" y="-8" width="6" height="10" rx="1.5"/>
+      <rect x="181" y="-8" width="6" height="10" rx="1.5"/>
+
+      <!-- Bottom Pins -->
+      <rect x="27" y="152" width="6" height="10" rx="1.5"/>
+      <rect x="49" y="152" width="6" height="10" rx="1.5"/>
+      <rect x="71" y="152" width="6" height="10" rx="1.5"/>
+      <rect x="93" y="152" width="6" height="10" rx="1.5"/>
+      <rect x="115" y="152" width="6" height="10" rx="1.5"/>
+      <rect x="137" y="152" width="6" height="10" rx="1.5"/>
+      <rect x="159" y="152" width="6" height="10" rx="1.5"/>
+      <rect x="181" y="152" width="6" height="10" rx="1.5"/>
+
+      <!-- Left Side Pins (5 pins) -->
+      <rect x="-8" y="25" width="10" height="6" rx="1.5"/>
+      <rect x="-8" y="50" width="10" height="6" rx="1.5"/>
+      <rect x="-8" y="75" width="10" height="6" rx="1.5"/>
+      <rect x="-8" y="100" width="10" height="6" rx="1.5"/>
+      <rect x="-8" y="125" width="10" height="6" rx="1.5"/>
+
+      <!-- Right Side Pins (5 pins) -->
+      <rect x="218" y="25" width="10" height="6" rx="1.5"/>
+      <rect x="218" y="50" width="10" height="6" rx="1.5"/>
+      <rect x="218" y="75" width="10" height="6" rx="1.5"/>
+      <rect x="218" y="100" width="10" height="6" rx="1.5"/>
+      <rect x="218" y="125" width="10" height="6" rx="1.5"/>
+    </g>
+
+    <!-- Main Ceramic Chip Body -->
+    <rect x="0" y="0" width="220" height="154" rx="12" fill="url(#chipGrad)" stroke="#1a3d5c" stroke-width="1.8"/>
+    
+    <!-- Pin 1 Indicator Notch -->
+    <circle cx="16" cy="16" r="4.5" fill="#08101a" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.8"/>
+
+    <!-- Inner Silicon Cavity -->
+    <rect x="18" y="18" width="184" height="118" rx="8" fill="#050a12" stroke="#163854" stroke-width="1"/>
+    
+    <!-- Micro Matrix Grid in Die -->
+    <g opacity="0.12" stroke="#00e5ff" stroke-width="0.5">
+      <line x1="18" y1="46" x2="202" y2="46"/>
+      <line x1="18" y1="76" x2="202" y2="76"/>
+      <line x1="18" y1="106" x2="202" y2="106"/>
+      <line x1="64" y1="18" x2="64" y2="136"/>
+      <line x1="110" y1="18" x2="110" y2="136"/>
+      <line x1="156" y1="18" x2="156" y2="136"/>
+    </g>
+
+    <!-- Perfectly Aligned & Sized Header Box: DUAL-CORE MCU -->
+    <rect x="36" y="26" width="148" height="25" rx="5" fill="#0a1928" stroke="url(#cyanGrad)" stroke-width="1.2"/>
+    <text x="110" y="43" text-anchor="middle" fill="#00f3fe" class="font-mono" font-size="12" font-weight="bold" letter-spacing="1.2">
+      DUAL-CORE MCU
+    </text>
+
+    <!-- Subtitle: ESP32 • STM32 -->
+    <text x="110" y="72" text-anchor="middle" fill="#ffffff" class="font-mono" font-size="13" font-weight="bold" letter-spacing="1.5">
+      ESP32 <tspan fill="#00e5ff">•</tspan> STM32
+    </text>
+
+    <!-- Silicon Circuit Labels -->
+    <text x="110" y="93" text-anchor="middle" fill="#80c4e8" class="font-mono" font-size="9.5" letter-spacing="1">
+      SENSORS • IoT • EMBEDDED AI
+    </text>
+
+    <!-- Perfectly Spaced & Aligned Spec Badges -->
+    <g transform="translate(0, 108)">
+      <!-- Badge 1: RTOS (x: 28 to 76, center: 52) -->
+      <rect x="28" y="0" width="48" height="17" rx="3.5" fill="#0b1e2e" stroke="#174466" stroke-width="0.9"/>
+      <text x="52" y="12" text-anchor="middle" fill="#00ffa3" class="font-mono" font-size="8.5" font-weight="bold">RTOS</text>
+
+      <!-- Badge 2: 240MHz (x: 86 to 134, center: 110 - exact chip midpoint) -->
+      <rect x="86" y="0" width="48" height="17" rx="3.5" fill="#0b1e2e" stroke="#174466" stroke-width="0.9"/>
+      <text x="110" y="12" text-anchor="middle" fill="#ffd166" class="font-mono" font-size="8.5" font-weight="bold">240MHz</text>
+
+      <!-- Badge 3: BLE/WiFi (x: 144 to 192, center: 168) -->
+      <rect x="144" y="0" width="48" height="17" rx="3.5" fill="#0b1e2e" stroke="#174466" stroke-width="0.9"/>
+      <text x="168" y="12" text-anchor="middle" fill="#00e5ff" class="font-mono" font-size="8.5" font-weight="bold">WiFi/BLE</text>
+    </g>
+
+    <!-- Heartbeat LED on MCU -->
+    <circle cx="188" cy="30" r="3.5" fill="#00ffa3" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- RIGHT MODULE: IoT & Wireless / Sensor Radar -->
+  <g transform="translate(655, 80)">
+    <rect x="0" y="0" width="180" height="96" rx="8" fill="#060c14" stroke="#16344d" stroke-width="1.2"/>
+    
+    <g transform="translate(90, 48)">
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#102d42" stroke-width="1"/>
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#102d42" stroke-width="1"/>
+      <circle cx="0" cy="0" r="40" fill="none" stroke="#102d42" stroke-width="1"/>
+      
+      <line x1="-42" y1="0" x2="42" y2="0" stroke="#102d42" stroke-width="0.8" stroke-dasharray="2,2"/>
+      <line x1="0" y1="-42" x2="0" y2="42" stroke="#102d42" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#00e5ff" stroke-width="1.5">
+        <animate attributeName="r" values="4;38" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#00ffa3" stroke-width="1.2">
+        <animate attributeName="r" values="4;38" begin="1.1s" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="0" cy="0" r="3.5" fill="#00e5ff" filter="url(#glow)"/>
+
+      <g filter="url(#subtleGlow)">
+        <circle cx="18" cy="-16" r="2.5" fill="#ffd166">
+          <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-22" cy="18" r="2.5" fill="#00ffa3">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <rect x="6" y="6" width="60" height="15" rx="3" fill="#0c1d2d" fill-opacity="0.8"/>
+    <text x="10" y="17" fill="#00ffa3" class="font-mono" font-size="9" font-weight="bold">TELEMETRY</text>
+    <text x="106" y="17" fill="#587d99" class="font-mono" font-size="8">WIRELESS: ON</text>
+
+    <text x="10" y="88" fill="#8cb3cf" class="font-mono" font-size="8">SENSORS • I/O BUS</text>
+    <circle cx="168" cy="85" r="3" fill="#00e5ff">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Bottom Accent Banner Ribbon -->
+  <g transform="translate(0, 218)">
+    <line x1="20" y1="0" x2="880" y2="0" stroke="url(#cyanGrad)" stroke-width="1" stroke-opacity="0.4"/>
+    
+    <polygon points="450,-4 454,0 450,4 446,0" fill="#00f2fe" filter="url(#glow)"/>
+    
+    <text x="450" y="24" text-anchor="middle" fill="#d9f7ff" class="font-mono" font-size="12.5" font-weight="600" letter-spacing="3.5">
+      ELECTRONICS <tspan fill="#00e5ff">•</tspan> EMBEDDED SYSTEMS <tspan fill="#00e5ff">•</tspan> IoT <tspan fill="#00e5ff">•</tspan> COMPUTER SCIENCE
+    </text>
+  </g>
+</svg>

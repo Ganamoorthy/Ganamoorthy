@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="48" viewBox="0 0 288 48" fill="none">
+  <!-- 1. ARDUINO -->
+  <g transform="translate(0, 0)">
+    <rect width="48" height="48" rx="10" fill="#00878F"/>
+    <!-- Infinity loop -->
+    <path d="M 17 24 C 17 20 12 20 12 24 C 12 28 17 28 20 25.5 L 28 22.5 C 31 20 36 20 36 24 C 36 28 31 28 28 25.5 L 20 22.5 C 17 20 12 20 12 24" 
+          fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Minus sign on left -->
+    <line x1="13.5" y1="24" x2="16.5" y2="24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <!-- Plus sign on right -->
+    <line x1="30" y1="24" x2="34" y2="24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="32" y1="22" x2="32" y2="26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- 2. ESP32 -->
+  <g transform="translate(60, 0)">
+    <rect width="48" height="48" rx="10" fill="#181a1f" stroke="#2c3038" stroke-width="1"/>
+    <!-- Espressif Red Emblem -->
+    <g transform="translate(9, 9)">
+      <!-- Outer chip outline -->
+      <rect x="2" y="2" width="26" height="26" rx="5" fill="#E7352C"/>
+      <!-- Inner chip shape -->
+      <rect x="5.5" y="5.5" width="19" height="19" rx="3.5" fill="#181a1f"/>
+      <!-- Glowing core dot -->
+      <circle cx="15" cy="15" r="4.5" fill="#E7352C"/>
+      <!-- Signal traces -->
+      <path d="M 8 10 H 11 M 8 15 H 10 M 8 20 H 12" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M 22 10 H 19 M 22 15 H 20 M 22 20 H 18" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round"/>
+      <text x="15" y="27" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="5" font-weight="900" letter-spacing="0.5">ESP32</text>
+    </g>
+  </g>
+
+  <!-- 3. STM32 -->
+  <g transform="translate(120, 0)">
+    <rect width="48" height="48" rx="10" fill="#03234B" stroke="#00d2ff" stroke-width="0.8"/>
+    <!-- ST Microelectronics Stylized Logo & STM32 text -->
+    <g transform="translate(8, 7)">
+      <!-- ST stylized swoosh -->
+      <path d="M 6 12 C 9 6, 23 6, 26 12 C 23 18, 9 18, 6 24 C 9 30, 23 30, 26 24" 
+            fill="none" stroke="#00e5ff" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 12 8 L 20 8 M 16 8 L 16 26" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="16" y="30" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="6.5" font-weight="900" letter-spacing="0.5">STM32</text>
+    </g>
+  </g>
+
+  <!-- 4. PLATFORMIO -->
+  <g transform="translate(180, 0)">
+    <rect width="48" height="48" rx="10" fill="#24292E" stroke="#3b424a" stroke-width="1"/>
+    <!-- PlatformIO Orange Alien Logo -->
+    <g transform="translate(10, 8)">
+      <!-- Antennas -->
+      <line x1="8" y1="4" x2="11" y2="9" stroke="#F47B2A" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="7" cy="3" r="1.8" fill="#F47B2A"/>
+      <line x1="20" y1="4" x2="17" y2="9" stroke="#F47B2A" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="21" cy="3" r="1.8" fill="#F47B2A"/>
+      <!-- Circular Head -->
+      <circle cx="14" cy="18" r="10.5" fill="#F47B2A"/>
+      <!-- Inner face/eyes -->
+      <circle cx="10" cy="17" r="2.2" fill="#24292E"/>
+      <circle cx="18" cy="17" r="2.2" fill="#24292E"/>
+      <circle cx="14" cy="20" r="1.8" fill="#24292E"/>
+      <!-- Smile line -->
+      <path d="M 11 23 Q 14 25, 17 23" fill="none" stroke="#24292E" stroke-width="1.3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- 5. RASPBERRY PI -->
+  <g transform="translate(240, 0)">
+    <rect width="48" height="48" rx="10" fill="#1e1e1e" stroke="#2c3038" stroke-width="1"/>
+    <!-- Raspberry Pi Logo -->
+    <g transform="translate(10, 8)">
+      <!-- Green Leaves -->
+      <path d="M 14 8 C 11 3, 7 5, 8 9 C 10 9, 13 8, 14 8 Z" fill="#75A928"/>
+      <path d="M 14 8 C 17 3, 21 5, 20 9 C 18 9, 15 8, 14 8 Z" fill="#75A928"/>
+      <circle cx="14" cy="9.5" r="1.8" fill="#75A928"/>
+      <!-- Red Raspberry drupelets -->
+      <circle cx="14" cy="14" r="3.2" fill="#C51A4A"/>
+      <circle cx="9.5" cy="15" r="3.2" fill="#C51A4A"/>
+      <circle cx="18.5" cy="15" r="3.2" fill="#C51A4A"/>
+      <circle cx="8" cy="20.5" r="3.2" fill="#C51A4A"/>
+      <circle cx="20" cy="20.5" r="3.2" fill="#C51A4A"/>
+      <circle cx="11.5" cy="22" r="3.2" fill="#C51A4A"/>
+      <circle cx="16.5" cy="22" r="3.2" fill="#C51A4A"/>
+      <circle cx="14" cy="26.5" r="3" fill="#C51A4A"/>
+    </g>
+  </g>
+</svg>

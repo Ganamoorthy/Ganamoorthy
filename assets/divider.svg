@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24" fill="none">
+  <defs>
+    <linearGradient id="divLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00e5ff" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#0077fe" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0077fe" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="divGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Divider Line -->
+  <line x1="40" y1="12" x2="860" y2="12" stroke="url(#divLineGrad)" stroke-width="1.2"/>
+
+  <!-- Left Accent Nodes -->
+  <circle cx="340" cy="12" r="2" fill="#00e5ff" opacity="0.6"/>
+  <circle cx="200" cy="12" r="1.5" fill="#00e5ff" opacity="0.3"/>
+
+  <!-- Right Accent Nodes -->
+  <circle cx="560" cy="12" r="2" fill="#0077fe" opacity="0.6"/>
+  <circle cx="700" cy="12" r="1.5" fill="#0077fe" opacity="0.3"/>
+
+  <!-- Center Diamond & Glowing Ring -->
+  <g transform="translate(450, 12)">
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#00e5ff" stroke-width="0.8" opacity="0.4">
+      <animate attributeName="r" values="5;10;5" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <polygon points="0,-5 5,0 0,5 -5,0" fill="#00f2fe" filter="url(#divGlow)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
+  </g>
+</svg>
