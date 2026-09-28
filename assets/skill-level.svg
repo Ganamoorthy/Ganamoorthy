@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="285">
+<rect width="760" height="285" rx="16" fill="#07111d"/>
+<g font-family="monospace" font-size="15" fill="#d8f7ff">
+<text x="25" y="42">Embedded Systems</text><text x="25" y="92">Electronics</text><text x="25" y="142">IoT &amp; Communication</text><text x="25" y="192">Programming</text><text x="25" y="242">AI &amp; Data Processing</text>
+</g>
+<g fill="#102638"><rect x="220" y="25" width="505" height="20" rx="10"/><rect x="220" y="75" width="505" height="20" rx="10"/><rect x="220" y="125" width="505" height="20" rx="10"/><rect x="220" y="175" width="505" height="20" rx="10"/><rect x="220" y="225" width="505" height="20" rx="10"/></g>
+<g fill="#00cfff">
+<rect x="220" y="25" width="420" height="20" rx="10"><animate attributeName="width" values="380;420;395;420" dur="3s" repeatCount="indefinite"/></rect>
+<rect x="220" y="75" width="400" height="20" rx="10"><animate attributeName="width" values="360;400;375;400" dur="3.2s" repeatCount="indefinite"/></rect>
+<rect x="220" y="125" width="390" height="20" rx="10"><animate attributeName="width" values="350;390;365;390" dur="2.8s" repeatCount="indefinite"/></rect>
+<rect x="220" y="175" width="370" height="20" rx="10"><animate attributeName="width" values="335;370;350;370" dur="3.4s" repeatCount="indefinite"/></rect>
+<rect x="220" y="225" width="360" height="20" rx="10"><animate attributeName="width" values="325;360;340;360" dur="3.1s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
