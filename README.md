@@ -9,6 +9,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Ganamoorthy?tab=followers" target="_blank">
+    <img src="https://img.shields.io/github/followers/Ganamoorthy?label=Followers&logo=github&style=flat-square&color=00F2FE&labelColor=0d1117&logoColor=white" alt="Followers"/>
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Ganamoorthy&label=Profile%20Views&style=flat-square&color=00F2FE&labelColor=0d1117" alt="Profile Views"/>
+</p>
+
+<p align="center">
   <img src="./assets/divider.svg" alt="Divider" width="100%"/>
 </p>
 
@@ -198,15 +206,6 @@ My primary interest is in **electronics and embedded systems**, especially hardw
 <p align="center">
   <img src="./assets/divider.svg" alt="Divider" width="100%"/>
 </p>
-
-<p align="center">
-  <a href="https://github.com/Ganamoorthy?tab=followers" target="_blank">
-    <img src="https://img.shields.io/github/followers/Ganamoorthy?label=Followers&logo=github&style=for-the-badge&color=00F2FE&labelColor=0d1117&logoColor=white" alt="Followers"/>
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Ganamoorthy&label=Profile%20Views&style=for-the-badge&color=00F2FE&labelColor=0d1117" alt="Profile Views"/>
-</p>
-
 
 ## 🌐 Connect With Me
 
